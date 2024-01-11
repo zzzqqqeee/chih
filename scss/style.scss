@@ -2,6 +2,12 @@
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
+.cc {
+	display: flex;           /* Use flexbox */
+    align-items: center;     /* Center-align items vertically */
+    justify-content: center;
+}
+
 @mixin ul_reset() {
 	&,li {
 		padding: 0;
